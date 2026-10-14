@@ -125,44 +125,6 @@ npm run build
 npm run preview
 ```
 
----
-
-## 📤 Pushing to Your GitHub Repository
-
-To upload this complete project to your personal GitHub account:
-
-### Step 1: Create a new repository on GitHub
-1. Go to [github.com/new](https://github.com/new).
-2. Enter a repository name (e.g. `neuroquest-ai-game` or `ai-learning-game`).
-3. Set visibility to **Public** (or **Private**).
-4. Do NOT initialize with a README, .gitignore, or license (we already created them).
-5. Click **Create repository**.
-
-### Step 2: Initialize & push from your local terminal
-Open terminal in the project directory and run:
-
-```bash
-# 1. Check git status
-git status
-
-# 2. Add all files to staging
-git add .
-
-# 3. Commit changes
-git commit -m "feat: Initial release of NeuroQuest AI educational game with Docker & OWASP LLM Top 10"
-
-# 4. Set main branch
-git branch -M main
-
-# 5. Connect your GitHub remote repository (replace with your actual GitHub URL)
-git remote add origin https://github.com/YOUR_USERNAME/neuroquest-ai-game.git
-
-# 6. Push to GitHub
-git push -u origin main
-```
-
----
-
 ## 🏆 Gamification Highlights
 
 - **XP & Level Progression**: Earn XP on every mini-game, challenge, and lab experiment.
